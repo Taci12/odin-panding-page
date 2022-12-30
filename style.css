@@ -1,0 +1,54 @@
+nav {
+    background-color: rgb(204, 153, 0);
+    font-family: 'Mulish', 'Heebo', sans-serif;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav h1 {
+    align-self: flex-start;
+    font-size: 200%;
+}
+
+nav #header-links {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 125%;
+}
+
+.presentation-div {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Heebo', 'Mulish', sans-serif;
+}
+
+#img-div {
+    width: 50%;
+
+}
+
+#text-div {
+    margin-left: 2.5%;
+}
+
+#img-div img {
+    width: 70%;
+    margin-top: 5%;
+}
+
+#presentation-div #text-div {
+    width: 50%;
+}
+
+#text-div h2 {
+    font-size: 300%;
+}
+
+#text-div p {
+    font-size: 150%;
+}

@@ -1,3 +1,9 @@
+body {
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+/*navbar styling*/
 nav {
     background-color: rgb(204, 153, 0);
     font-family: 'Mulish', 'Heebo', sans-serif;
@@ -17,7 +23,7 @@ nav #header-links {
     justify-content: space-around;
     font-size: 125%;
 }
-
+/*presentation div styling*/
 .presentation-div {
     background-color: black;
     color: white;
@@ -34,10 +40,11 @@ nav #header-links {
 
 #text-div {
     margin-left: 2.5%;
+    align-self: center;
 }
 
 #img-div img {
-    width: 70%;
+    width: 90%;
     margin-top: 5%;
 }
 
@@ -47,8 +54,49 @@ nav #header-links {
 
 #text-div h2 {
     font-size: 300%;
+    text-decoration: underline;
 }
 
 #text-div p {
     font-size: 150%;
+}
+/*images div styling*/
+.images-div {
+    font-family: 'Mulish', 'Heebo', sans-serif;
+}
+
+.images-div h3, .images-div p {
+    text-align: center;
+}
+
+.images-div h3 {
+    font-size: 300%;
+}
+
+.images-div p {
+    font-size: 150%;
+}
+
+.images-div .grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img-1 {
+    width: 25%;
+}
+
+#img-2 {
+    flex: 2;
+    width: 25%;
+}
+
+#img-3 {
+    flex: 2;
+    width: 25%;
+}
+
+#img-4 {
+    flex: 2;
+    width: 25%;
 }
